@@ -1,7 +1,7 @@
 # Entry 1
-##### X/X/XX
+##### 11/8/21
 
-Text
+     My freedom project revolves arount the tool [Unity]()
 
 [Next](entry02.md)
 
