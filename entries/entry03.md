@@ -27,6 +27,7 @@ Vector3 move = transform.right * x + transform.forward * z;
 control.Move(move * speed * Time.deltaTime);
 ```
 My Engineering Design Process is at 4(Plan) and 5(Create). I'm starting to plan out the things ai need and will convert the things I've been coding to the final product. The next thing I want to do is work on the things I can do as a player. Right now The player can only walk and look around. I'm planning on creating a terrain that then can traverse and maybe work on some unique movement controls. 
+
 Skills I learned were Embracing failure and Attention to detail. The failure I encountered was when I was changing the old movement system with the new one. I realized that the old one was really simple and was not going to be able to do the things that I had envisioned. Attention to detail also relates to the new movement system. Since I had opted to use the improved system it was a lot more complex than the old one. This new one used a lot of variables and methods with specific cases sensitive methods. 
 
 [Previous](entry02.md) | [Next](entry04.md)
