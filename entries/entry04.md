@@ -6,10 +6,10 @@ Over the past few weeks, I have worked more on the movement system and added fea
 The running mechanic was relatively easy to implement because it was a simple if statement that would change the speed of the player. Speed was already a set variable and all that would change was to increase the speed when the condition was true. The condition was if "Left Shift" was pressed the speed would be set to a higher number. Otherwise, if the wasn't pressed the speed would be set back to its original number. 
 ```
   if(Input.GetKey("left shift")){
-    speed = 20f;
-    Debug.Log("SPEED!");
+      speed = 20f;
+      Debug.Log("SPEED!");
   } else {
-    speed = 12f;
+      speed = 12f;
   }
 ```
 
@@ -19,32 +19,32 @@ The gravity system itself was a little more challenging it involved math equatio
   isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
   if(isGrounded){
-    velocety.y = 0f;
+      velocety.y = 0f;
   } else {
-    velocety.y += gravity * Time.deltaTime;
+      velocety.y += gravity * Time.deltaTime;
   }
 ```
 
 The jumping mechanic was a little weird to set up because it overlaps/utilizes the gravity system. Since I wanted the character to be able to jump and double jump(a second jump when mid-air) I need to create a boolean value for both of them. To make the player jump the condition requires that the space button is pressed and that the canJump condition is true. This condition also extends to the doubleJump condition. When either of the conditions are true the gravity is inverted in a way so that the player goes up for a brief moment. This simulates the movement of jumping because after the initial jump the gravity system recognized the player is off the ground and immediately starts to inflict gravity on the player. 
 ```
   if(Input.GetKeyUp("space") && canJump){
-    // rb.AddForce(jump * jumpForce, ForceMode.Impulse);
-    velocety.y += 10f;
-    Debug.Log("JUMP!");
+      // rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+      velocety.y += 10f;
+      Debug.Log("JUMP!");
   } else if(Input.GetKeyUp("space") && doubleJump){
-    velocety.y = 0f;
-    velocety.y += 10f;
-    doubleJump = false;
-    Debug.Log("DOUBLE JUMP!");
+      velocety.y = 0f;
+      velocety.y += 10f;
+      doubleJump = false;
+      Debug.Log("DOUBLE JUMP!");
   }
 
   if(isGrounded){
-    velocety.y = 0f;
-    canJump = true;
-    doubleJump = true;
+      velocety.y = 0f;
+      canJump = true;
+      doubleJump = true;
   } else {
-    canJump = false;
-    velocety.y += gravity * Time.deltaTime;
+      canJump = false;
+      velocety.y += gravity * Time.deltaTime;
   }
 ```
 
