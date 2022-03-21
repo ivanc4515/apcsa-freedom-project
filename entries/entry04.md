@@ -1,7 +1,7 @@
 # Entry 4
 ##### 3/21/22
 
-Over the past few weeks, I have worked more on the movement system and added features like running, gravity, and jumping. Making the character run was simple and just changed the speed at which the player moves. By watching the previous [video](), I was able to learn how to implement gravity using the velocity of the character. Jumping on the other hand was harder because it would interact with gravity. I learned how to do the running and jump by following (Unity's Documentation)[] and experimenting with different lines of code. 
+Over the past few weeks, I have worked more on the movement system and added features like running, gravity, and jumping. Making the character run was simple and just changed the speed at which the player moves. By watching the previous [video](https://www.youtube.com/watch?v=_QajrabyTJc&t=1085s), I was able to learn how to implement gravity using the velocity of the character. Jumping on the other hand was harder because it would interact with gravity. I learned how to do the running and jump by following [Unity's Documentation](https://docs.unity3d.com/Manual/index.html) and experimenting with different lines of code. 
 
 The running mechanic was relatively easy to implement because it was a simple if statement that would change the speed of the player. Speed was already a set variable and all that would change was to increase the speed when the condition was true. The condition was if "Left Shift" was pressed the speed would be set to a higher number. Otherwise, if the wasn't pressed the speed would be set back to its original number. 
 ```
