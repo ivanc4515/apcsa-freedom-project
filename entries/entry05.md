@@ -5,6 +5,9 @@ Since the main mechanics of the game has been created, the final step of the gam
 
 Since I was limited to the base shapes I created simple platforms for the player to jump to. I implemented levels into the game and color-coated them to make differentiating them easy. Another thing I did was to implement the mechanics that I added into their own level. That way as you play you need to figure out what needs to be done to progress the game. Objects have their own set position, rotation, and scale. This can all be set on the inspector panel. There the panel show all the traits the objects contain. 
 
+[alt text](https://github.com/ivanc4515/apcsa-freedom-project/blob/master/Screenshot%20APCSA(FP)1.png)
+[alt text](https://github.com/ivanc4515/apcsa-freedom-project/blob/master/Screenshot%20APCSA(FP)2.png)
+
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
