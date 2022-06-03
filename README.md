@@ -2,16 +2,18 @@
 by Ivan Chiu
 
 ## Context
-The “Freedom Project” for APCSA is all about X. The purpose of this blog is to X.
+The “Freedom Project” for APCSA is all about creating something using a tool you learned on your own. The purpose of this blog is to document my journy in creating my projest using [Unity](https://unity.com/). 
 
 ## Content
-For my project, I am making a 3D platformer game. This blog will walk through my process of independently studying teh Unity engine in order to make platformer.
+For my project, I am making a 3D platformer game. This blog will walk through my process of independently studying the Unity engine in order to make platformer. It shows my learning process and the improvements I made along the way. 
 
 ## Links
 
-Product
+[First look](https://youtu.be/FNeNuEWH54s)
 
-Presentation
+[Updated](https://youtu.be/BHHwk1DlqTw)
+
+[Presentation](https://github.com/ivanc4515/apcsa-freedom-project/blob/master/entries/entry06.md)
 
 ## Implications
 X
